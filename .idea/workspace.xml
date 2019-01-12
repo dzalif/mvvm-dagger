@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1aaef8-31e0-4bcf-8c27-d17cab3b1dba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/base/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/base/BaseActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivityComponent.java" afterPath="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivityComponent.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,6 +60,18 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
                 <element signature="e#301#302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivityComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivityComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1944,13 +1954,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/trending/TrendingReposComponent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/di/ControllerKey.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainScreenBindingModule.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivityComponent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/di/ActivityInjector.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/di/ScreenInjector.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/di/Injector.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/base/BaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivityComponent.java" />
       </list>
     </option>
   </component>
@@ -2044,46 +2054,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="advancedandroid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvvm-dagger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvvm-dagger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advancedandroid" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvvm-dagger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvvm-dagger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advancedandroid" type="462c0819:PsiDirectoryNode" />
-              <item name="di" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvvm-dagger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvvm-dagger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advancedandroid" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvvm-dagger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvvm-dagger" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="advancedandroid" type="462c0819:PsiDirectoryNode" />
-              <item name="trending" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mvvm-dagger" type="b2602c69:ProjectViewProjectNode" />
@@ -2296,7 +2266,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="996" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2313,7 +2282,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2533,16 +2502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivityComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/base/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1658">
@@ -2553,6 +2512,16 @@
             <element signature="e#1968#1969#0" expanded="true" />
             <element signature="e#2179#2180#0" expanded="true" />
             <element signature="e#2216#2217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/io/neverstoplearning/advancedandroid/home/MainActivityComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
