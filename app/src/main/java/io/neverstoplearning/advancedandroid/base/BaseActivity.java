@@ -6,11 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.UUID;
 
+import javax.inject.Inject;
+
 import io.neverstoplearning.advancedandroid.di.Injector;
+import io.neverstoplearning.advancedandroid.di.ScreenInjector;
 
 public abstract class BaseActivity extends AppCompatActivity {
 
     private static String INSTANCE_ID_KEY = "instance_id";
+    @Inject ScreenInjector screenInjector;
     private String instanceId;
 
     @Override
@@ -40,5 +44,9 @@ public abstract class BaseActivity extends AppCompatActivity {
         if(isFinishing()) {
             Injector.clearComponent(this);
         }
+    }
+
+    public ScreenInjector getScreenInjector() {
+        return screenInjector;
     }
 }
