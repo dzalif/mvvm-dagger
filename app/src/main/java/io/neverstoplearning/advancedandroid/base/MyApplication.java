@@ -4,7 +4,9 @@ import android.app.Application;
 
 import javax.inject.Inject;
 
+import io.neverstoplearning.advancedandroid.BuildConfig;
 import io.neverstoplearning.advancedandroid.di.ActivityInjector;
+import timber.log.Timber;
 
 public class MyApplication extends Application {
 
@@ -20,6 +22,10 @@ public class MyApplication extends Application {
                 .applicationModule(new ApplicationModule(this))
                 .build();
         component.inject(this);
+
+        if (BuildConfig.DEBUG) {
+            Timber.plant(new Timber.DebugTree());
+        }
     }
 
     public ActivityInjector getActivityInjector() {

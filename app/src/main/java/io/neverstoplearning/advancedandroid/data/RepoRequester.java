@@ -6,7 +6,6 @@ import javax.inject.Inject;
 
 import io.neverstoplearning.advancedandroid.model.Repo;
 import io.reactivex.Single;
-import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 
 public class RepoRequester {
@@ -17,7 +16,7 @@ public class RepoRequester {
         this.service = service;
     }
 
-    Single<List<Repo>> getTrendingRepos() {
+    public Single<List<Repo>> getTrendingRepos() {
         return service.getTrendingRepos()
                 .map(TrendingReposResponse::repos)
                 .subscribeOn(Schedulers.io());
